@@ -1,1 +1,1 @@
-# GA-Interactive
+# Georgia-Interactive
