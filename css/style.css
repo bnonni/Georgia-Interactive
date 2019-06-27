@@ -93,23 +93,6 @@ div#chat-nat-forest {
 }
 
 
-/* Chatt Nat Forest Base Styles - Expansion Div */
-
-div#chat-nat-forest {
-    height: 10px;
-    width: 10px;
-    position: relative;
-    float: left;
-    -webkit-transition: width 2s, height 2s, 1s;
-    transition: width 2s, height 2s, 1s;
-    background-color: brown;
-    left: 20px;
-    bottom: 20px;
-    z-index: -1;
-    border-radius: 5px;
-}
-
-
 /* Chatt Nat Forest Styles Added Upon Hover */
 
 div#cnf-icon img:hover~div#chat-nat-forest {
@@ -131,23 +114,6 @@ div#rtm-icon {
     left: 10em;
     top: 11em;
     width: 5%;
-}
-
-
-/* Red Top Mountain Base Styles - Expansion Div */
-
-div#red-top-mtn {
-    height: 10px;
-    width: 10px;
-    position: relative;
-    float: left;
-    -webkit-transition: width 2s, height 2s, 1s;
-    transition: width 2s, height 2s, 1s;
-    background-color: brown;
-    left: 20px;
-    bottom: 20px;
-    z-index: -1;
-    border-radius: 5px;
 }
 
 
@@ -209,23 +175,6 @@ div#chat-river {
 }
 
 
-/* Chatt River Base Styles - Expansion Div */
-
-div#chat-river {
-    height: 10px;
-    width: 10px;
-    position: relative;
-    float: left;
-    -webkit-transition: width 2s, height 2s, 1s;
-    transition: width 2s, height 2s, 1s;
-    background-color: brown;
-    left: 20px;
-    bottom: 20px;
-    z-index: -1;
-    border-radius: 5px;
-}
-
-
 /* Chatt River Styles Added Upon Hover */
 
 div#cr-icon img:hover~div#chat-river {
@@ -233,6 +182,10 @@ div#cr-icon img:hover~div#chat-river {
     width: 500px;
     background-color: brown;
     z-index: 1;
+}
+
+div#cr-icon img:hover~div#atlanta {
+    display: none;
 }
 
 
@@ -244,26 +197,9 @@ div#cr-icon img:hover~div#chat-river {
 div#atl-icon {
     float: left;
     position: absolute;
-    left: 8.5em;
-    top: 32em;
+    left: 15em;
+    top: 16em;
     width: 5%;
-}
-
-
-/* Atlanta Base Styles - Expansion Div */
-
-div#atlanta {
-    height: 10px;
-    width: 10px;
-    position: relative;
-    float: left;
-    -webkit-transition: width 2s, height 2s, 1s;
-    transition: width 2s, height 2s, 1s;
-    background-color: brown;
-    left: 20px;
-    bottom: 20px;
-    z-index: -1;
-    border-radius: 5px;
 }
 
 
@@ -287,6 +223,47 @@ div#atlanta {
 /* Chatt River Styles Added Upon Hover */
 
 div#atl-icon img:hover~div#atlanta {
+    height: 200px;
+    width: 500px;
+    background-color: brown;
+    z-index: 1;
+}
+
+
+/*---------Atlanta-----------*/
+
+
+/* Atlanta Icon Contain */
+
+div#ll-icon {
+    float: left;
+    position: absolute;
+    left: 18em;
+    top: 9em;
+    width: 5%;
+}
+
+
+/* Atlanta Base Styles - Expansion Div */
+
+div#lake-lanier {
+    height: 10px;
+    width: 10px;
+    position: relative;
+    float: left;
+    -webkit-transition: width 2s, height 2s, 1s;
+    transition: width 2s, height 2s, 1s;
+    background-color: brown;
+    left: 20px;
+    bottom: 20px;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+
+/* Chatt River Styles Added Upon Hover */
+
+div#ll-icon img:hover~div#lake-lanier {
     height: 200px;
     width: 500px;
     background-color: brown;
