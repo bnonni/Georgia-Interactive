@@ -19,12 +19,29 @@ div.georgia {
 div.icon {
     width: 5em;
 }
-
+ul.info{
+	float:left;
+	list-style-type:none;
+	padding-inline-start: 25px;
+	text-align:left;
+	margin-top:-8px;
+}
+li {
+	border-bottom: 1px solid white;
+	padding-top: 10px;
+}
+div.info {
+	float:right;
+	display:block;
+	margin-left: 61%;
+	text-transform: inherit;
+	
+}
 
 /* Icon Img Class */
 
 div.icon img {
-    width: 100%
+    width: 100%;
 }
 
 
@@ -55,6 +72,7 @@ div#tallulah-gorge {
     background-image: url(/images/tallulah_gorge.jpg);
     background-size: 65%;
     background-repeat: no-repeat;
+	
 }
 
 
@@ -64,8 +82,8 @@ div#tg-icon img:hover~div#tallulah-gorge {
     height: 200px;
     width: 500px;
     z-index: 10;
-}
 
+}
 
 /*----------Chattahoochee National Forest-----------*/
 
@@ -271,7 +289,7 @@ div#lake-lanier {
 /* Lake Lanier Styles Added Upon Hover */
 
 div#ll-icon img:hover~div#lake-lanier {
-    height: 200px;
+    height: 162px;
     width: 500px;
     z-index: 10;
 }
@@ -397,7 +415,7 @@ div#macon {
 /* Macon Styles Added Upon Hover */
 
 div#ma-icon img:hover~div#macon {
-    height: 200px;
+    height: 172px;
     width: 500px;
     z-index: 10;
 }
@@ -523,7 +541,7 @@ div#rad-springs {
 /* Radium Springs Canyon Styles Added Upon Hover */
 
 div#rs-icon img:hover~div#rad-springs {
-    height: 200px;
+    height: 174px;
     width: 500px;
     z-index: 10;
 }
