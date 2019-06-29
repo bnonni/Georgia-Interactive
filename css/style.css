@@ -10,7 +10,7 @@ body {
 }
 
 div.georgia {
-    padding: 0 0 900px 0;
+    padding: 0 0 933px 0;
     background: url(/icons/georgia-clipart.gif);
     background-repeat: no-repeat;
     background-size: 800px;
@@ -19,17 +19,16 @@ div.georgia {
 }
 
 div.expand {
-    height: 10px;
-    width: 10px;
+    height: 100px;
+    width: 78px;
     position: relative;
     float: left;
-    -webkit-transition: width 2s, height 2s, 1s;
-    transition: width 2s, height 2s, 1s;
-    left: 50px;
-    bottom: 20px;
+    -webkit-transition: width 0s, height 0s, 0s;
+    transition: width 0s, height 0s, 0s;
     z-index: -1;
     border-radius: 5px;
-    background-size: 65%;
+    background-position-x: center;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
@@ -39,16 +38,24 @@ div.icon {
 }
 
 ul.info {
-    float: left;
     list-style-type: none;
-    padding-inline-start: 25px;
     text-align: left;
-    margin-top: -8px;
+    position: relative;
+    top: 21em;
+    margin: 0 auto;
 }
 
-li {
-    border-bottom: 1px solid white;
-    padding-top: 10px;
+ul li {
+    padding: 7px 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    line-height: 1em;
+}
+
+ul li::before {
+    content: "\1F351"
 }
 
 div.info {
@@ -63,6 +70,15 @@ div.info {
 
 div.icon img {
     width: 100%;
+}
+
+ul {
+    display: none;
+    color: white;
+}
+
+ :target {
+    display: unset;
 }
 
 
@@ -81,15 +97,21 @@ div#tg-icon {
 div#tallulah-gorge {
     background-color: #D1CCC4;
     background-image: url(/images/tallulah_gorge.jpg);
+    bottom: 1em;
+    left: 5em;
 }
 
 
 /* Tallulah Gorge Styles Added Upon Hover */
 
 div#tg-icon img:hover~div#tallulah-gorge {
-    height: 200px;
+    height: 300px;
     width: 500px;
     z-index: 10;
+}
+
+ul#show-tg {
+    top: 17em;
 }
 
 
@@ -111,15 +133,20 @@ div#cnf-icon {
 div#chat-nat-forest {
     background-color: #AE9061;
     background-image: url(/images/chattahoochee_forest.jpg);
+    left: 5em;
 }
 
 
 /* Chatt Nat Forest Styles Added Upon Hover */
 
 div#cnf-icon img:hover~div#chat-nat-forest {
-    height: 200px;
+    height: 250px;
     width: 500px;
     z-index: 10;
+}
+
+ul#show-cnf {
+    top: 13em;
 }
 
 
@@ -147,39 +174,49 @@ div#red-top-mtn {
 /* Red Top Mountain Styles Added Upon Hover */
 
 div#rtm-icon img:hover~div#red-top-mtn {
-    height: 200px;
-    width: 500px;
+    height: 360px;
+    width: 550px;
     z-index: 10;
 }
 
 
-/*----------Chattahoochee River-----------*/
+/* ul#show-rtm {
+    top: 22em;
+} */
 
 
-/* Chatt River Icon Contain */
+/*----------Lake Lanier----------*/
 
-div#cr-icon {
+
+/* Lake Lanier Icon Contain */
+
+div#ll-icon {
     float: left;
     position: absolute;
-    left: 9em;
-    top: 31em;
+    left: 18em;
+    top: 9em;
 }
 
 
-/* Chatt River Base Styles - Expansion Div */
+/* Lake Lanier Base Styles - Expansion Div */
 
-div#chat-river {
-    background-color: #94D65B;
-    background-image: url(/images/chattahoochee_river.jpg);
+div#lake-lanier {
+    background-color: #69D2E7;
+    background-image: url(/images/lake_lanier.jpg);
+    background-size: 100% 100%;
 }
 
 
-/* Chatt River Styles Added Upon Hover */
+/* Lake Lanier Styles Added Upon Hover */
 
-div#cr-icon img:hover~div#chat-river {
-    height: 200px;
-    width: 500px;
+div#ll-icon img:hover~div#lake-lanier {
+    height: 350px;
+    width: 650px;
     z-index: 10;
+}
+
+ul#show-ll {
+    top: 19em;
 }
 
 
@@ -207,39 +244,13 @@ div#atlanta {
 /* Atlanta Styles Added Upon Hover */
 
 div#atl-icon img:hover~div#atlanta {
-    height: 200px;
-    width: 500px;
+    height: 300px;
+    width: 550px;
     z-index: 10;
 }
 
-
-/*----------Lake Lanier----------*/
-
-
-/* Lake Lanier Icon Contain */
-
-div#ll-icon {
-    float: left;
-    position: absolute;
-    left: 18em;
-    top: 9em;
-}
-
-
-/* Lake Lanier Base Styles - Expansion Div */
-
-div#lake-lanier {
-    background-color: #69D2E7;
-    background-image: url(/images/lake_lanier.jpg);
-}
-
-
-/* Lake Lanier Styles Added Upon Hover */
-
-div#ll-icon img:hover~div#lake-lanier {
-    height: 162px;
-    width: 500px;
-    z-index: 10;
+ul#show-atl {
+    top: 17em
 }
 
 
@@ -261,15 +272,21 @@ div#aug-icon {
 div#augusta {
     background-color: #FBE203;
     background-image: url(/images/augusta.jpeg);
+    bottom: 19em;
+    left: 5em;
 }
 
 
 /* Augusta Styles Added Upon Hover */
 
 div#aug-icon img:hover~div#augusta {
-    height: 200px;
-    width: 500px;
+    height: 300px;
+    width: 550px;
     z-index: 10;
+}
+
+ul#show-aug {
+    top: 17em
 }
 
 
@@ -291,15 +308,21 @@ div#ws-icon {
 div#warm-springs {
     background-color: #B1EBF2;
     background-image: url(/images/warm_springs.jpg);
+    left: 4em;
+    bottom: 25em;
 }
 
 
 /* Warm Springs Styles Added Upon Hover */
 
 div#ws-icon img:hover~div#warm-springs {
-    height: 200px;
-    width: 500px;
+    height: 300px;
+    width: 550px;
     z-index: 10;
+}
+
+ul#show-ws {
+    top: 17em;
 }
 
 
@@ -321,15 +344,57 @@ div#ma-icon {
 div#macon {
     background-color: #003556;
     background-image: url(/images/macon.jpg);
+    left: 3em;
+    bottom: 23em;
 }
 
 
 /* Macon Styles Added Upon Hover */
 
 div#ma-icon img:hover~div#macon {
-    height: 172px;
+    height: 250px;
     width: 500px;
     z-index: 10;
+}
+
+ul#show-ma {
+    top: 13em;
+}
+
+
+/*----------Chattahoochee River-----------*/
+
+
+/* Chatt River Icon Contain */
+
+div#cr-icon {
+    float: left;
+    position: absolute;
+    left: 9em;
+    top: 31em;
+}
+
+
+/* Chatt River Base Styles - Expansion Div */
+
+div#chat-river {
+    background-color: #94D65B;
+    background-image: url(/images/chattahoochee_river.jpg);
+    left: 4em;
+    bottom: 25em;
+}
+
+
+/* Chatt River Styles Added Upon Hover */
+
+div#cr-icon img:hover~div#chat-river {
+    height: 250px;
+    width: 550px;
+    z-index: 10;
+}
+
+ul#show-cr {
+    top: 14em;
 }
 
 
@@ -351,15 +416,21 @@ div#sav-icon {
 div#savannah {
     background-color: #DB0031;
     background-image: url(/images/savannah.jpg);
+    bottom: 23em;
+    right: 34em;
 }
 
 
 /* Savannah Styles Added Upon Hover */
 
 div#sav-icon img:hover~div#savannah {
-    height: 200px;
-    width: 500px;
+    height: 250px;
+    width: 550px;
     z-index: 10;
+}
+
+ul#show-sav {
+    top: 14em;
 }
 
 
@@ -381,15 +452,21 @@ div#pc-icon {
 div#prov-canyon {
     background-color: #FF6242;
     background-image: url(/images/providence_canyon.jpg);
+    left: 5em;
+    bottom: 23em;
 }
 
 
 /* Providence Canyon Styles Added Upon Hover */
 
 div#pc-icon img:hover~div#prov-canyon {
-    height: 200px;
-    width: 500px;
+    height: 250px;
+    width: 550px;
     z-index: 10;
+}
+
+ul#show-pc {
+    top: 14em;
 }
 
 
@@ -411,15 +488,21 @@ div#rs-icon {
 div#rad-springs {
     background-color: #573100;
     background-image: url(/images/radium_springs.jpg);
+    bottom: 23em;
+    left: 4em;
 }
 
 
 /* Radium Springs Canyon Styles Added Upon Hover */
 
 div#rs-icon img:hover~div#rad-springs {
-    height: 174px;
-    width: 500px;
+    height: 250px;
+    width: 550px;
     z-index: 10;
+}
+
+ul#show-rs {
+    top: 14em;
 }
 
 
@@ -429,9 +512,8 @@ div#rs-icon img:hover~div#rad-springs {
 /* Okefenokee Swamp Icon Contain */
 
 div#os-icon {
-    float: left;
-    position: absolute;
-    left: 30em;
+    position: relative;
+    left: 8em;
     top: 48em;
 }
 
@@ -441,13 +523,21 @@ div#os-icon {
 div#oke-swamp {
     background-color: #C5D122;
     background-image: url(/images/okefenokee_swamp.jpg);
+    bottom: 28em;
+    left: 5em
 }
 
 
 /* Okefenokee Swamp Canyon Styles Added Upon Hover */
 
 div#os-icon img:hover~div#oke-swamp {
-    height: 200px;
-    width: 500px;
+    height: 300px;
+    width: 550px;
     z-index: 10;
+}
+
+ul#show-os {
+    top: 16em;
+    right: 0%;
+    width: 100%;
 }
