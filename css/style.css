@@ -9,13 +9,18 @@ body {
     margin-top: 1.5em;
 }
 
+.click {
+    color: green;
+}
+
 div.georgia {
-    padding: 0 0 933px 0;
     background: url(/icons/georgia-clipart.gif);
     background-repeat: no-repeat;
     background-size: 800px;
     text-align: center;
-    margin-left: 22em
+    margin-left: 22em;
+    width: 1000px;
+    height: 900px;
 }
 
 div.expand {
@@ -514,7 +519,7 @@ ul#show-rs {
 div#os-icon {
     position: relative;
     left: 8em;
-    top: 48em;
+    top: 42em;
 }
 
 
@@ -523,7 +528,7 @@ div#os-icon {
 div#oke-swamp {
     background-color: #C5D122;
     background-image: url(/images/okefenokee_swamp.jpg);
-    bottom: 28em;
+    bottom: 29em;
     left: 5em
 }
 
