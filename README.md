@@ -6,7 +6,7 @@
 
 #### To run this project locally, you will need git, nodeJS, npm & a npm package called reload
 
-#### To test if you have these dependencies, run the following commands in a terminal, git bash or powershell (windows)
+To test if you have these dependencies, run the following commands in a terminal, git bash or powershell (windows):
 
 * git
 
@@ -32,7 +32,7 @@ npm --version
 reload --version
 ```
 
-#### If you get an error message in the terminal, you need to download the following dependencies.
+If you get an error message in the terminal, you need to download the following dependencies:
 
 * [git](https://git-scm.com/downloads)
 
@@ -40,7 +40,7 @@ reload --version
 
 * [reload](https://www.npmjs.com/package/reload)
 
-#### Once all 3 of these are installed, do the following
+Once all 3 of these are installed, do the following:
 
 Clone this repo to your local machine via the terminal
 
