@@ -26,7 +26,7 @@ npm --version
 reload --version
 ```
 
-#### To download the following dependencies, visit the links below
+#### If you get an error message in the terminal, you need to download the following dependencies.
 
 1. [nodeJS & npm](https://www.npmjs.com/get-npm)
 
