@@ -34,15 +34,15 @@ reload --version
 
 #### If you get an error message in the terminal, you need to download the following dependencies.
 
-1. [git](https://git-scm.com/downloads)
+* [git](https://git-scm.com/downloads)
 
-2. [nodeJS & npm](https://www.npmjs.com/get-npm)
+* [nodeJS & npm](https://www.npmjs.com/get-npm)
 
-3. [reload](https://www.npmjs.com/package/reload)
+* [reload](https://www.npmjs.com/package/reload)
 
 #### Once all 3 of these are installed, do the following
 
-1. Clone this repo to your local machine via the terminal
+Clone this repo to your local machine via the terminal
 
 * SSH
 
@@ -56,7 +56,7 @@ git clone git@github.com:bnonni/Georgia-Interactive.git
 git clone https://github.com/bnonni/Georgia-Interactive.git
 ```
 
-2. Navigate to this folder in the terminal and run
+Navigate to this folder in the terminal and run
 
 ```sh
 reload -b
