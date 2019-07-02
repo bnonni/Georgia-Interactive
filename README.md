@@ -56,7 +56,7 @@ git clone git@github.com:bnonni/Georgia-Interactive.git
 git clone https://github.com/bnonni/Georgia-Interactive.git
 ```
 
-Navigate to this folder in the terminal and run
+Once cloned, navigate to the Georgia-Interactive folder on your computer using the terminal and run
 
 ```sh
 reload -b
