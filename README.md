@@ -4,9 +4,15 @@
 
 ### Members: Bryan Nonni, Alex Fleming, Steve Faussnacht
 
-#### To run this project locally, you will need nodeJS, npm & a npm package called reload
+#### To run this project locally, you will need git, nodeJS, npm & a npm package called reload
 
 #### To test if you have these dependencies, run the following commands in a terminal, git bash or powershell (windows)
+
+* git
+
+```sh
+git --version
+```
 
 * nodeJS
 
@@ -28,11 +34,29 @@ reload --version
 
 #### If you get an error message in the terminal, you need to download the following dependencies.
 
-1. [nodeJS & npm](https://www.npmjs.com/get-npm)
+1. [git](https://git-scm.com/downloads)
 
-2. [reload](https://www.npmjs.com/package/reload)
+2. [nodeJS & npm](https://www.npmjs.com/get-npm)
 
-#### Once nodeJS, npm & reload are installed, navigate to this folder in the terminal and run
+3. [reload](https://www.npmjs.com/package/reload)
+
+#### Once all 3 of these are installed, do the following
+
+1. Clone this repo to your local machine via the terminal
+
+* SSH
+
+```sh
+git clone git@github.com:bnonni/Georgia-Interactive.git
+```
+
+* HTTPS
+
+```sh
+git clone https://github.com/bnonni/Georgia-Interactive.git
+```
+
+2. Navigate to this folder in the terminal and run
 
 ```sh
 reload -b
