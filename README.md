@@ -4,7 +4,9 @@
 
 ### Members: Bryan Nonni, Alex Fleming, Steve Faussnacht
 
-#### To run this project locally, you will need nodeJS, npm & a npm package called reload. To test if you have these dependencies, run the following commands in a terminal, git bash or powershell (windows)
+#### To run this project locally, you will need nodeJS, npm & a npm package called reload
+
+##### To test if you have these dependencies, run the following commands in a terminal, git bash or powershell (windows)
 
 * nodeJS
 
